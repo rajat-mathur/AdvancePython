@@ -1,7 +1,7 @@
 # lamda,map and filter
 a = lambda c,d : c+d
 square = lambda i:i*i
-print(a(2,3))
+print(a(2,30))
 print(square(9))
 
 # Filter function without using lamda
@@ -43,8 +43,8 @@ print("Output is ",output)
 #   Using map with defined function
 def add(n):
     return n+2
-list1 = [1,2,3,57,4,66,9]
-listPlus2 = list(map(add,list1))
+list2 = [1,2,3,57,4,66,9]
+listPlus2 = list(map(add,list2))
 print("listPlus2=",listPlus2)
 
 
