@@ -43,8 +43,8 @@ print("Output is ",output)
 #   Using map with defined function
 def add(n):
     return n+2
-list1 = [1,2,3,57,4,66,9]
-listPlus2 = list(map(add,list1))
+list2 = [1,2,3,57,4,66,9]
+listPlus2 = list(map(add,list2))
 print("listPlus2=",listPlus2)
 
 
